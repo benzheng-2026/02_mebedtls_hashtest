@@ -15,5 +15,5 @@ include_directories(crypto)
 aux_source_directory(crypto SRC_LIST)
 
 # 添加可执行文件（假设主源码文件为 main.c）
-add_executable(hashtest main.c ${SRC_LIST})
+add_executable(hashtest_file main.c ${SRC_LIST})
 
